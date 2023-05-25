@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/TestServlet2")
-public class TestServlet2 extends HttpServlet {
+@WebServlet("/Leo")
+public class Leo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
