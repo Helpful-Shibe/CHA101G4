@@ -16,7 +16,7 @@ public class Leo extends HttpServlet {
 		response.setCharacterEncoding("UTF-8");
 		response.setContentType("text/html; charset=UTF-8");
 		// 分支測試
-		response.getWriter().append("Served at: 豪哥真D太帥了 愛了愛了!!!").append(request.getContextPath());
+		response.getWriter().append("Served at: 豪哥真D太帥了 愛了愛了???").append(request.getContextPath());
 	}
 
 }
