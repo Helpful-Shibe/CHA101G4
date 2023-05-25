@@ -7,12 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet("/TestServlet2")
-public class TestServlet2 extends HttpServlet {
+@WebServlet("/Leo")
+public class Leo extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
 		response.getWriter().append("Served at: 豪哥真D太帥了 愛了愛了").append(request.getContextPath());
 	}
 
