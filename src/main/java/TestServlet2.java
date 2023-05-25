@@ -13,6 +13,8 @@ public class TestServlet2 extends HttpServlet {
        
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		response.setCharacterEncoding("UTF-8");
+		response.setContentType("text/html; charset=UTF-8");
 		response.getWriter().append("Served at: 豪哥真D太帥了 愛了愛了").append(request.getContextPath());
 	}
 
